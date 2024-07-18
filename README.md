@@ -50,6 +50,14 @@ With this valuable insights, we are able to train machine learning models to det
 
 ### RUL (Remaining Usefull Lifetime)
 
+Remaining useful life is computed as the time between current time and failure and can be represented in number of days, miles or cycles. There are 3 common ways to estimate RUL, depending how much we know from data
+
+ * Survival model: when we have failure data from similar machines. We us a probability distribution of this data to estimate the  RUL.
+
+ * Degradation model: when we know a threshold of some condition indicator that indicates failure. We can statistically how many cycles there are until the condition indicator crosses the threshold-
+
+ * Similarity model: when we have run-to-failure histories from similar machines.
+
 <p align="center">
 <img src="./imgs/rul_graphs.png" width="713">
 </p>

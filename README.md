@@ -64,7 +64,10 @@ Remaining useful life is computed as the time between current time and failure a
 
 
 ## Classical approach (Weibulll analysis)
- 
+
+A Weibull analysis it's a continous probaility distribution. It has parameters that define the shape, scale, and location it usinf a 3-parameter Weilbull distribution.
+
+* Shape parameter (&#946)
 
 
 ## Recurrent Neural Network approach

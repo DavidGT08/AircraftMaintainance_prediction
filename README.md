@@ -26,7 +26,17 @@ And that is exactly what this works pretends to do.
 
 ### Acquire data
 
+A triplex pump is commonly used in the oil and gas industry. The first step is to collect a large set of sensor data (temperature, flow, pressure,etc) representing healthy and faulty operation from different operating conditions. Real data.
+
+In some cases, there is not enough data to be analyzed, so a mathematical model of the pump can be constructed and estimate its parameters from sensor data. Then,this model can be simulated with different fault states to generate failure data. Synthetic data.
+
 ### Preprocess data
+
+Once the daata was acquired, the next step is to remove outliers and clean it up by filtering out the noise
+
+<p align="center">
+<img src="./imgs/preprocess_graph.png" width="713">
+</p>
 
 ### Identify condition indicators
 

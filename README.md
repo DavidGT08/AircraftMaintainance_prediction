@@ -69,6 +69,10 @@ A Weibull analysis it's a continous probaility distribution. It has parameters t
 
 * Shape parameter (β): Defines the slope characteristic and provides the estimate of when the first failure will occur. Also know as the threshold parameter
 
+<p align="center">
+<img src="./imgs/hottub_graph.png" width="413">
+</p>
+
 * Scale parameter (η): Provides the characteristic life for the data set getting modeled
 
 * Location parameter (γ): Defines the period of time that goes on before the first failure occurs

@@ -65,7 +65,11 @@ Remaining useful life is computed as the time between current time and failure a
 
 ## Classical approach (Weibulll analysis)
 
-A Weibull analysis it's a continous probaility distribution. It has parameters that define the shape, scale, and location it usinf a 3-parameter Weilbull distribution.
+A Weibull analysis it's a continous probaility distribution. It has parameters that define the shape, scale, and location it using a 3-parameter Weilbull distribution.
+
+<p align="center">
+<img src="./imgs/weilbull_equation.png" width="413">
+</p>
 
 * Shape parameter (β): Defines the slope characteristic and provides the estimate of when the first failure will occur. Also know as the threshold parameter
 

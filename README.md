@@ -78,6 +78,8 @@ A Weibull analysis it's a continous probaility distribution. It has parameters t
 <img src="./imgs/weibull_distribution.gif" width="713">
 </p>
 
+Weibull distributions are used for predicting life, reliability, product manufacturing, etc. This distribution works well fro non-symmetrical data, unlike a Normal PDF model.
+
 ## Recurrent Neural Network approach
 
 

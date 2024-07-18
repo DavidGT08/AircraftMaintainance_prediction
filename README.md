@@ -24,13 +24,13 @@ And that is exactly what this works pretends to do.
 
 ## Predictive maintenance algorithm
 
-### Acquire data
+### 1. Acquire data
 
 A triplex pump is commonly used in the oil and gas industry. The first step is to collect a large set of sensor data (temperature, flow, pressure,etc) representing healthy and faulty operation from different operating conditions. Real data.
 
 In some cases, there is not enough data to be analyzed, so a mathematical model of the pump can be constructed and estimate its parameters from sensor data. Then,this model can be simulated with different fault states to generate failure data. Synthetic data.
 
-### Preprocess data
+### 2. Preprocess data
 
 Once the daata was acquired, the next step is to remove outliers and clean it up by filtering out the noise
 
@@ -38,13 +38,22 @@ Once the daata was acquired, the next step is to remove outliers and clean it up
 <img src="./imgs/preprocess_graph.png" width="713">
 </p>
 
-### Identify condition indicators
+Sometimes further preprocessing is necessary to reveal additional information that may be not be apparent in the original form of the data.
 
-### Train Model
+### 3. Identify condition indicators
 
+After preprocessing step, it is time to extract some useful features (condition indicators) to distinguish healthy from faulty condition.
 
+### 4. Train Model
+
+With this valuable insights, we are able to train machine learning models to detect anomalies, different type of faults, and gain insight into what part of the pump requieres attention os estimate the remaining usefull life
 
 ### RUL (Remaining Usefull Lifetime)
+
+<p align="center">
+<img src="./imgs/rul_graphs.png" width="713">
+</p>
+
 
 ## Classical approach (Weibulll analysis)
  

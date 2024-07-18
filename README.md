@@ -74,6 +74,10 @@ A Weibull analysis it's a continous probaility distribution. It has parameters t
 * Location parameter (γ): Defines the period of time that goes on before the first failure occurs
 
 
+<p align="center">
+<img src="./imgs/weibull_distribution.gif" width="713">
+</p>
+
 ## Recurrent Neural Network approach
 
 

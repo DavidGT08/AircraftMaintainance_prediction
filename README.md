@@ -67,7 +67,11 @@ Remaining useful life is computed as the time between current time and failure a
 
 A Weibull analysis it's a continous probaility distribution. It has parameters that define the shape, scale, and location it usinf a 3-parameter Weilbull distribution.
 
-* Shape parameter (β)
+* Shape parameter (β): Defines the slope characteristic and provides the estimate of when the first failure will occur. Also know as the threshold parameter
+
+* Scale parameter (η): Provides the characteristic life for the data set getting modeled
+
+* Location parameter (γ): Defines the period of time that goes on before the first failure occurs
 
 
 ## Recurrent Neural Network approach

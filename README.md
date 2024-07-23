@@ -90,6 +90,31 @@ Weibull distributions are used for predicting life, reliability, product manufac
 
 ## Recurrent Neural Network approach
 
+ Long Short-Term Memory is an advanced version of recurrent neural network (RNN) architecture that was designed to model chronological sequences and their long-range dependencies more precisely than conventional RNNs. 
+
+ <p align="center">
+<img src="./imgs/lstm_arch.png" width="413">
+</p>
+
+  * Forget Gate:
+
+    The information that is no longer useful in the cell state is removed with the forget gate. The resultant is passed through an activation function which gives a binary output.
+
+ * Input gate:
+
+   The addition of useful information to the cell state is done by the input gate. First, the information is regulated using the sigmoid function and filter the values to be remembered similar to the forget gate
+
+* Output gate:
+
+  The task of extracting useful information from the current cell state to be presented as output is done by the output gate.
+
+
+  It's important to consider that LSRM require a lot of resources and time to get trained and become ready for real-world applications and are prone to overfitting.
+
+
+
+
+
 
 ## Results
 

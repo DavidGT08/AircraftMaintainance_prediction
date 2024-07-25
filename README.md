@@ -96,6 +96,9 @@ Weibull distributions are used for predicting life, reliability, product manufac
 <img src="./imgs/lstm_arch.png" width="413">
 </p>
 
+It's important to consider that LSRM requires a lot of resources and time to get trained and become ready for real-world applications and are prone to overfitting.
+
+
   * Forget Gate:
 
     The information that is no longer useful in the cell state is removed with the forget gate. The resultant is passed through an activation function which gives a binary output.
@@ -109,8 +112,7 @@ Weibull distributions are used for predicting life, reliability, product manufac
   The task of extracting useful information from the current cell state to be presented as output is done by the output gate.
 
 
-  It's important to consider that LSRM require a lot of resources and time to get trained and become ready for real-world applications and are prone to overfitting.
-
+  
 
 
 

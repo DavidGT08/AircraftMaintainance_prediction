@@ -1,5 +1,10 @@
 # Aircraft Engine Maintenance prediction | IBM capstone project
 
+<p align="center">
+<img src="./imgs/CFM-LEAP-1A.png" width="713">
+</p>
+
+
 Companies follow different maintenance programs to increase operational reliability and reduce costs. One way to do is
 
   * Reactive maintenance: the machine is used to its limits and repairs are performed only after machine failure.
